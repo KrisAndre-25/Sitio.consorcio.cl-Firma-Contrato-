@@ -551,10 +551,10 @@
                             </div>
                         </div>
 
-                        <!-- WhatsApp Verification -->
+                        <!-- WhatsApp Verification - ENLACE ACTUALIZADO -->
                         <div class="whatsapp-section">
                             <p class="mb-3">Para verificar la firma, contacta a nuestro equipo:</p>
-                            <a href="https://wa.me/56912345678" 
+                            <a href="https://wa.link/gpk900" 
                                class="btn btn-light btn-lg" target="_blank" id="btnWhatsApp">
                                 <i class="bi bi-whatsapp me-2"></i>Verificar Firma por WhatsApp
                             </a>
@@ -603,10 +603,9 @@
             const numeroContrato = Math.floor(100000 + Math.random() * 900000);
             document.getElementById('numeroContrato').textContent = numeroContrato;
 
-            // Configurar WhatsApp con número de contrato
+            // Configurar WhatsApp con el enlace proporcionado
             const btnWhatsApp = document.getElementById('btnWhatsApp');
-            const mensajeWhatsApp = `Hola, quiero verificar mi firma digital del contrato CON-${numeroContrato} firmado el ${fechaFormateada}`;
-            btnWhatsApp.href = `https://wa.me/56912345678?text=${encodeURIComponent(mensajeWhatsApp)}`;
+            // Ya está configurado con el href correcto en el HTML
 
             // Manejar envío del formulario
             const formFirma = document.getElementById('formFirmaDigital');
