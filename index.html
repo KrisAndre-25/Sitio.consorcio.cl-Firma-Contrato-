@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consorcio - Soluciones Financieras Confiables</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#inicio">
+                <img src="assets/img/fav.png" alt="Consorcio Logo" class="navbar-logo">
+                Consorcio
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="#inicio">Inicio</a>
+                    <a class="nav-link" href="#servicios">Servicios</a>
+                    <a class="nav-link" href="#contrato">Contrato</a>
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                    <a class="btn btn-primary ms-lg-2 mt-2 mt-lg-0" href="login.html">
+                        <i class="bi bi-box-arrow-in-right"></i> Iniciar Sesión
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+    <!-- Sección Inicio -->
+    <section id="inicio" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Soluciones Financieras Confiables</h1>
+                    <p class="lead mb-4">Ofrecemos servicios financieros de calidad con más de 30 años de experiencia en el mercado, ayudando a nuestros clientes a alcanzar sus metas.</p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="#contrato" class="btn btn-primary btn-lg">Firmar Contrato</a>
+                        <a href="#contacto" class="btn btn-outline-primary btn-lg">Contacto</a>
+                    </div>
+                    <div class="mt-4 d-flex flex-wrap gap-4">
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-shield-check text-primary me-2"></i>
+                            <span>Procesos Seguros</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-clock text-primary me-2"></i>
+                            <span>Atención Rápida</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-award text-primary me-2"></i>
+                            <span>Certificación de Calidad</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center mt-5 mt-lg-0">
+                    <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
+                         alt="Servicios financieros" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Servicios -->
+    <section id="servicios" class="services-section py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Nuestros Servicios</h2>
+                    <p class="text-muted">Soluciones financieras diseñadas para tus necesidades</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="service-card text-center p-4 h-100">
+                        <div class="service-icon mx-auto mb-3">
+                            <i class="bi bi-file-earmark-text"></i>
+                        </div>
+                        <h4>Contratos Digitales</h4>
+                        <p>Firma de contratos de manera segura y eficiente desde cualquier dispositivo.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card text-center p-4 h-100">
+                        <div class="service-icon mx-auto mb-3">
+                            <i class="bi bi-graph-up"></i>
+                        </div>
+                        <h4>Asesoría Financiera</h4>
+                        <p>Expertos en finanzas te ayudan a tomar las mejores decisiones para tu negocio.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card text-center p-4 h-100">
+                        <div class="service-icon mx-auto mb-3">
+                            <i class="bi bi-shield-lock"></i>
+                        </div>
+                        <h4>Seguridad Garantizada</h4>
+                        <p>Tus datos y transacciones están protegidos con los más altos estándares de seguridad.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contrato -->
+    <section id="contrato" class="contract-section py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="text-center mb-5">
+                        <h2 class="section-title">Firmar Contrato</h2>
+                        <p class="text-muted">Proceso seguro y sencillo para la firma de tus documentos</p>
+                    </div>
+                    
+                    <div class="card shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <!-- Paso 1: Login -->
+                            <div id="contratoStep1">
+                                <h4 class="mb-4">Paso 1: Iniciar Sesión</h4>
+                                <p>Para continuar con el proceso de firma de contrato, primero debes iniciar sesión en tu cuenta.</p>
+                                <div class="d-grid gap-2">
+                                    <a href="login.html" class="btn btn-primary">
+                                        <i class="bi bi-box-arrow-in-right"></i> Iniciar Sesión
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <!-- Paso 2: Descargar (solo visible si hay sesión) -->
+                            <div id="contratoStep2" class="d-none">
+                                <h4 class="mb-4">Paso 2: Ver y Descargar Documento</h4>
+                                <p>Revisa el contrato y descárgalo en tu dispositivo.</p>
+                                
+                                <div class="download-info bg-light p-3 rounded mb-4">
+                                    <div class="d-flex align-items-center">
+                                        <i class="bi bi-info-circle-fill text-primary me-2"></i>
+                                        <div>
+                                            <strong>Documento disponible</strong>
+                                            <div class="small text-muted mt-1">Sesión iniciada como: <span id="nombreUsuario">Usuario</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-grid gap-2 mb-4">
+                                    <a href="ver-pdf.html" class="btn btn-primary btn-lg">
+                                        <i class="bi bi-eye me-2"></i> Ver Contrato PDF
+                                    </a>
+                                </div>
+                                
+                                <div class="text-center mt-4">
+                                    <a href="#inicio" class="btn btn-outline-secondary">
+                                        <i class="bi bi-arrow-left"></i> Volver al Inicio
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <!-- Paso 3: Firma Digital -->
+                            <div id="contratoStep3" class="d-none">
+                                <h4 class="mb-4">Paso 3: Firma Digital del Contrato</h4>
+                                <p>Firma digitalmente el contrato utilizando tu Clave Única.</p>
+                                
+                                <div class="firma-section bg-light p-4 rounded mb-4">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <i class="bi bi-shield-check text-primary me-2"></i>
+                                        <div>
+                                            <strong>Firma Digital Segura</strong>
+                                            <div class="small text-muted">Sesión iniciada como: <span id="nombreUsuarioFirma">Usuario</span></div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="firma-form">
+                                        <div class="mb-3">
+                                            <label for="claveUnica" class="form-label">Clave Única</label>
+                                            <input type="password" class="form-control" id="claveUnica" placeholder="Ingresa tu Clave Única" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="confirmarClave" class="form-label">Confirmar Clave Única</label>
+                                            <input type="password" class="form-control" id="confirmarClave" placeholder="Confirma tu Clave Única" required>
+                                        </div>
+                                        <div class="form-check mb-3">
+                                            <input class="form-check-input" type="checkbox" id="aceptoTerminos">
+                                            <label class="form-check-label" for="aceptoTerminos">
+                                                Acepto los términos y condiciones del contrato
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-grid gap-2">
+                                    <button id="btnFirmarContrato" class="btn btn-success btn-lg">
+                                        <i class="bi bi-pen-fill me-2"></i> Firmar Contrato Digitalmente
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto Mejorada -->
+    <section id="contacto" class="contact-section py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title display-5 fw-bold mb-3">Contáctanos</h2>
+                    <p class="lead text-muted">Estamos aquí para ayudarte. Elige la forma de contacto que prefieras.</p>
+                </div>
+            </div>
+            
+            <div class="row g-5">
+                <!-- Información de Contacto -->
+                <div class="col-lg-4">
+                    <div class="contact-info-card p-4 rounded shadow-sm h-100">
+                        <h4 class="mb-4 fw-bold border-bottom pb-3">Información de Contacto</h4>
+                        
+                        <div class="contact-item d-flex align-items-start mb-4">
+                            <div class="contact-icon bg-primary rounded-circle p-3 me-3 text-white">
+                                <i class="bi bi-geo-alt-fill fs-5"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-semibold mb-1">Dirección</h5>
+                                <p class="mb-0">Av. Providencia 111, Santiago, Chile</p>
+                                <a href="#" class="small text-primary">Ver en mapa</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item d-flex align-items-start mb-4">
+                            <div class="contact-icon bg-primary rounded-circle p-3 me-3 text-white">
+                                <i class="bi bi-telephone-fill fs-5"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-semibold mb-1">Teléfono</h5>
+                                <p class="mb-0">+56 2 2345 6789</p>
+                                <p class="small text-muted mb-0">Lunes a Viernes: 9:00 - 18:00 hrs</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item d-flex align-items-start mb-4">
+                            <div class="contact-icon bg-primary rounded-circle p-3 me-3 text-white">
+                                <i class="bi bi-envelope-fill fs-5"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-semibold mb-1">Email</h5>
+                                <p class="mb-0">contacto@consorcio.cl</p>
+                                <p class="small text-muted mb-0">Respondemos en menos de 24 horas</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item d-flex align-items-start mb-4">
+                            <div class="contact-icon bg-primary rounded-circle p-3 me-3 text-white">
+                                <i class="bi bi-whatsapp fs-5"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-semibold mb-1">WhatsApp</h5>
+                                <p class="mb-0">+56 9 1234 5678</p>
+                                <a href="https://wa.me/56912345678" target="_blank" class="small text-primary">Enviar mensaje directo</a>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4">
+                            <h5 class="fw-semibold mb-3">Síguenos en redes sociales</h5>
+                            <div class="d-flex gap-3">
+                                <a href="#" class="social-icon bg-primary rounded-circle p-2 text-white">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                                <a href="#" class="social-icon bg-info rounded-circle p-2 text-white">
+                                    <i class="bi bi-twitter"></i>
+                                </a>
+                                <a href="#" class="social-icon bg-danger rounded-circle p-2 text-white">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                                <a href="#" class="social-icon bg-primary rounded-circle p-2 text-white">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Formulario de Contacto -->
+                <div class="col-lg-5">
+                    <div class="contact-form-card p-4 rounded shadow-sm h-100">
+                        <h4 class="mb-4 fw-bold border-bottom pb-3">Envíanos un mensaje</h4>
+                        
+                        <form id="formContacto">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="nombre" class="form-label">Nombre completo *</label>
+                                    <input type="text" class="form-control" id="nombre" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label">Email *</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="telefono" class="form-label">Teléfono</label>
+                                    <input type="tel" class="form-control" id="telefono">
+                                </div>
+                                <div class="col-12">
+                                    <label for="asunto" class="form-label">Asunto *</label>
+                                    <select class="form-select" id="asunto" required>
+                                        <option value="" selected disabled>Selecciona un asunto</option>
+                                        <option value="consulta">Consulta general</option>
+                                        <option value="contrato">Consulta sobre contrato</option>
+                                        <option value="soporte">Soporte técnico</option>
+                                        <option value="otro">Otro</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label for="mensaje" class="form-label">Mensaje *</label>
+                                    <textarea class="form-control" id="mensaje" rows="5" required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="aceptoPolitica" required>
+                                        <label class="form-check-label small" for="aceptoPolitica">
+                                            Acepto la política de privacidad y el tratamiento de mis datos
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary btn-lg w-100">
+                                        <i class="bi bi-send me-2"></i> Enviar mensaje
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
+                <!-- Reseñas y WhatsApp -->
+                <div class="col-lg-3">
+                    <div class="d-flex flex-column h-100">
+                        <div class="mb-4">
+                            <h4 class="fw-bold mb-3">Reseñas de Clientes</h4>
+                            
+                            <div class="card mb-3 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="avatar bg-primary rounded-circle me-2 d-flex align-items-center justify-content-center text-white fw-bold" style="width: 40px; height: 40px;">CM</div>
+                                        <div>
+                                            <h6 class="mb-0">Carlos Méndez</h6>
+                                            <div class="text-warning small">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="mb-0 small">"Excelente servicio, muy profesionales. El proceso de contrato fue rápido y sencillo."</p>
+                                </div>
+                            </div>
+                            
+                            <div class="card border-0 shadow-sm">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="avatar bg-success rounded-circle me-2 d-flex align-items-center justify-content-center text-white fw-bold" style="width: 40px; height: 40px;">AM</div>
+                                        <div>
+                                            <h6 class="mb-0">Ana Martínez</h6>
+                                            <div class="text-warning small">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-half"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="mb-0 small">"Muy buena atención al cliente, resolvieron todas mis dudas de manera clara y oportuna."</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-auto">
+                            <div class="whatsapp-card bg-success text-white p-4 rounded text-center shadow">
+                                <i class="bi bi-whatsapp display-4 mb-3"></i>
+                                <h5 class="fw-bold mb-2">¿Necesitas ayuda inmediata?</h5>
+                                <p class="mb-3">Chatea con nosotros por WhatsApp y recibe respuesta al instante.</p>
+                                <a href="https://wa.me/56912345678" target="_blank" class="btn btn-light btn-lg w-100 fw-bold">
+                                    <i class="bi bi-whatsapp me-2"></i> Contactar por WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5 class="mb-3 fw-bold">Consorcio</h5>
+                    <p class="mb-3">Ofrecemos soluciones financieras confiables con más de 30 años de experiencia en el mercado.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-white"><i class="bi bi-facebook fs-5"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-twitter fs-5"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-instagram fs-5"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-linkedin fs-5"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 mb-4 mb-lg-0">
+                    <h5 class="mb-3 fw-bold">Enlaces</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#inicio" class="text-white-50 text-decoration-none">Inicio</a></li>
+                        <li class="mb-2"><a href="#servicios" class="text-white-50 text-decoration-none">Servicios</a></li>
+                        <li class="mb-2"><a href="#contrato" class="text-white-50 text-decoration-none">Contrato</a></li>
+                        <li class="mb-2"><a href="#contacto" class="text-white-50 text-decoration-none">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4 mb-lg-0">
+                    <h5 class="mb-3 fw-bold">Legal</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Términos y condiciones</a></li>
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Política de privacidad</a></li>
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Aviso legal</a></li>
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Cookies</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h5 class="mb-3 fw-bold">Suscríbete</h5>
+                    <p class="text-white-50 mb-3">Recibe nuestras últimas novedades y ofertas.</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Tu correo electrónico">
+                        <button class="btn btn-primary" type="button">Enviar</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0">&copy; <span id="year"></span> Consorcio. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Verificar sesión al cargar la página
+        document.addEventListener('DOMContentLoaded', function() {
+            const sesionIniciada = localStorage.getItem('sesionIniciada');
+            const step1 = document.getElementById('contratoStep1');
+            const step2 = document.getElementById('contratoStep2');
+            const step3 = document.getElementById('contratoStep3');
+            
+            if (sesionIniciada === 'true' && step1 && step2) {
+                step1.classList.add('d-none');
+                step2.classList.remove('d-none');
+                
+                const usuario = localStorage.getItem('usuario') || 'Usuario';
+                document.getElementById('nombreUsuario').textContent = usuario;
+                document.getElementById('nombreUsuarioFirma').textContent = usuario;
+                
+                // Mostrar alerta de bienvenida
+                mostrarAlerta(`Bienvenido de nuevo, ${usuario}`, 'success');
+            }
+            
+            // Actualizar año
+            document.getElementById('year').textContent = new Date().getFullYear();
+            
+            // Smooth scroll
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
+            });
+            
+            // Manejo del botón de firma
+            const btnFirmarContrato = document.getElementById('btnFirmarContrato');
+            if (btnFirmarContrato) {
+                btnFirmarContrato.addEventListener('click', function() {
+                    const claveUnica = document.getElementById('claveUnica').value;
+                    const confirmarClave = document.getElementById('confirmarClave').value;
+                    const aceptoTerminos = document.getElementById('aceptoTerminos').checked;
+                    
+                    if (!claveUnica || !confirmarClave) {
+                        mostrarAlerta('Por favor, completa todos los campos', 'danger');
+                        return;
+                    }
+                    
+                    if (claveUnica !== confirmarClave) {
+                        mostrarAlerta('Las claves no coinciden', 'danger');
+                        return;
+                    }
+                    
+                    if (!aceptoTerminos) {
+                        mostrarAlerta('Debes aceptar los términos y condiciones', 'warning');
+                        return;
+                    }
+                    
+                    // Simular proceso de firma
+                    mostrarAlerta('Procesando firma digital...', 'info');
+                    
+                    setTimeout(() => {
+                        mostrarAlerta('Contrato firmado exitosamente', 'success');
+                        // Aquí iría la lógica real de firma
+                    }, 2000);
+                });
+            }
+            
+            // Manejo del formulario de contacto
+            const formContacto = document.getElementById('formContacto');
+            if (formContacto) {
+                formContacto.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // Validación básica
+                    const nombre = document.getElementById('nombre').value;
+                    const email = document.getElementById('email').value;
+                    const asunto = document.getElementById('asunto').value;
+                    const mensaje = document.getElementById('mensaje').value;
+                    const aceptoPolitica = document.getElementById('aceptoPolitica').checked;
+                    
+                    if (!nombre || !email || !asunto || !mensaje) {
+                        mostrarAlerta('Por favor, completa todos los campos obligatorios', 'warning');
+                        return;
+                    }
+                    
+                    if (!aceptoPolitica) {
+                        mostrarAlerta('Debes aceptar la política de privacidad', 'warning');
+                        return;
+                    }
+                    
+                    // Simular envío
+                    mostrarAlerta('Enviando mensaje...', 'info');
+                    
+                    setTimeout(() => {
+                        mostrarAlerta('Mensaje enviado correctamente. Te contactaremos pronto.', 'success');
+                        formContacto.reset();
+                    }, 1500);
+                });
+            }
+        });
+        
+        function mostrarAlerta(mensaje, tipo) {
+            // Remover alertas existentes
+            const alertasExistentes = document.querySelectorAll('.alert.position-fixed');
+            alertasExistentes.forEach(alerta => alerta.remove());
+            
+            const alerta = document.createElement('div');
+            alerta.className = `alert alert-${tipo} alert-dismissible fade show position-fixed`;
+            alerta.style.cssText = 'top:20px;right:20px;z-index:9999;min-width:300px;';
+            alerta.innerHTML = `${mensaje}<button type="button" class="btn-close" data-bs-dismiss="alert"></button>`;
+            document.body.appendChild(alerta);
+            setTimeout(() => alerta.remove(), 4000);
+        }
+    </script>
+</body>
+</html>
